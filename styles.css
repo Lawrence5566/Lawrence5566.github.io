@@ -1,14 +1,58 @@
 
 
 body {
-  background-color: powderblue;
-  font-family: 'Ubuntu', sans-serif;
+	background-color: powderblue;
+	font-family: 'Ubuntu', sans-serif;
+	min-width: 1000px;
+	text-align:center;
 }
 
-h1 {
-  color: blue;
+img {
+	max-height:inherit;
+	max-width:inherit;
 }
 
-p {
-  color: red;
+#NavBar {
+  list-style-type: none;
+  width: fit-content;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#NavBar li {
+  float: left;
+}
+
+#NavBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 24px;
+  text-decoration: none;
+}
+
+#NavBar li a:hover {
+  background-color: #111;
+}
+
+.contentSection{ /*contains images and paragraphs*/
+	position:relative;
+	text-align:center; /* applys to non-text elements too! */
+	max-height:500px;
+	height: 500px;
+	max-width: 80%;
+	margin: 0 auto;
+	
+}
+
+.content{ /*images and paragraphs */
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	max-height:inherit;
+	max-width: 49%;
+	width: 49%;
+	height:100%;
 }
