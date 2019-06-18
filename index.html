@@ -1,41 +1,180 @@
-<!DOCTYPE html>
 
-<html>
+<!doctype html>
+
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Lawrence Taylor Developer</title>
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+	<title>Lawrence Taylor</title>
+	<meta name="description" content="Portfolio site for Graduate Game Developer/Programmer Lawrence Taylor.">
+	<meta name="author" content="Lawrence Taylor">
+
+	<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-
-<ul id="NavBar">
-	<li><a href="index.html">About me</a></li>
-	<li><a href="personalWork.html">Personal projects</a></li>
-	<li><a href="uniWork.html">University work</a></li>
-	<li><a href="dissWork.html">Final year Project</a></li>
-	<li><a href="outsideCompSci.html">Outside of Computer Science</a></li>
-</ul>
-
-<div class = "contentSection">
-	<img src="Images/placeholder1.jpeg" alt="portait">
-	<div class="content">
-		<h2> About me </h2>
-		<p> I have been programming games since 2009 when I was twelve in scratch, remaking games like tron and call of duty in 2D.
-			My whole academic life since then has been driven by my passion for games and I was lucky enough to do 'Computing' at GCSE and ALEVEL (at 16 and 18).
-			From this I built up an early foundation of good coding practices and by the time I got to university for my undergraduate degree in computer science,
-			I had already programmed in Python, C# and C++. During Univeristy I gained an indepth knowledge of C++, C# and physX as well as learning haskell, pure OPP, matlab,
-			SQLite, javascript, java, android development (using android studio) and in my spare time, extensive knowledge of Unity development.
-			In this portfolio you will find practical projects I did in and before university and personal projects on the side, including an RTS game I worked on for a year
-			and my most recent project in procedual content generation for action-adventure games.
-		</p>
-		
+<div id="site">
+	<header class="intro">
+	
+	<h1 class="intro__hello">Hello!</h1>
+	<div class="intro__wrap">
+		<img class="intro__icon" src="Images/placeholder1.jpg" alt="Portrait" />
+		<h2 class="intro__tagline">I'm
+		<span class="name">Lawrence Taylor</span>, a passionate comp sci gradutate who inspires to be a game programmer/developer! Check out my personal projects below!
+		</h2>
 	</div>
+	
+	</header>
+	
+	<section class="section background" data-sr>
+	
+	<div class="section__title">
+	Background
+	<br>
+	<img class="section__background__portrait" src="images/crosshair.png" alt="Crosshair" />
+	</div>
+	<div class="section__content">
+		<p>
+		Put text here,
+		<a class="underline-link" href="https://www.lincoln.ac.uk/home/" target="_blank">Example link University of Lincoln</a>
+		etc etc
+		</p>
+	</div>
+	</section>
+
+	<section class="section skills" data-sr>
+	<div class="section__title">Skills</div>
+	<div class="section__content">
+	<div class="skillz">
+	<div class="skillz__category">
+	<div class="skillz__category__label">Languages</div>
+	<ul>
+	<li class="skillz__category__item">C++</li>
+	<li class="skillz__category__item">C#</li>
+	<li class="skillz__category__item">Lua</li>
+	<li class="skillz__category__item">JavaScript (ES6)</li>
+	<li class="skillz__category__item">HTML5</li>
+	<li class="skillz__category__item">CSS3/Sass</li>
+	</ul>
+	</div>
+	<div class="skillz__category">
+	<div class="skillz__category__label">Engines / Frameworks</div>
+	<ul>
+	<li class="skillz__category__item"><a class="underline-link" href="https://unity3d.com/" target="_blank">Unity</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://www.unrealengine.com" target="_blank">Unreal 4</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://www.yoyogames.com/gamemaker" target="_blank">Gamemaker Studio</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://www.libsdl.org/index.php" target="_blank">SDL2</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://www.sfml-dev.org/" target="_blank">SFML</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://en.wikipedia.org/wiki/Microsoft_XNA" target="_blank">XNA</a> / <a class="underline-link" href="http://www.monogame.net/" target="_blank">Monogame</a> / <a class="underline-link" href="https://fna-xna.github.io/" target="_blank">FNA</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://phaser.io/" target="_blank">Phaser</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://reactjs.org/" target="_blank">React</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
+	</ul>
+	</div>
+	<div class="skillz__category">
+	<div class="skillz__category__label">Tools</div>
+	<ul>
+	<li class="skillz__category__item"><a class="underline-link" href="https://docs.microsoft.com/en-us/dotnet/framework/wpf/" target="_blank">WPF</a> / <a class="underline-link" href="https://docs.microsoft.com/en-us/dotnet/framework/winforms/" target="_blank">WinForms</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://www.qt.io/" target="_blank">QT</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://github.com/ocornut/imgui" target="_blank">ImGUI</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://www.fmod.com/" target="_blank">FMOD</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://www.audiokinetic.com/products/wwise/" target="_blank">Wwise</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://git-scm.com/" target="_blank">Git</a> &amp; <a class="underline-link" href="https://github.com" target="_blank">Github</a> / <a class="underline-link" href="https://about.gitlab.com/" target="_blank">GitLab</a> / <a class="underline-link" href="https://bitbucket.org/" target="_blank">BitBucket</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://www.perforce.com/" target="_blank">Perforce</a></li>
+	<li class="skillz__category__item"><a class="underline-link" href="https://trello.com/" target="_blank">Trello</a></li>
+	</ul>
+	</div>
+	<div class="skillz__category">
+	<div class="skillz__category__label">Fields</div>
+	<ul>
+	<li class="skillz__category__item">Gameplay</li>
+	<li class="skillz__category__item">Tools</li>
+	<li class="skillz__category__item">Scripting</li>
+	<li class="skillz__category__item">Engine</li>
+	<li class="skillz__category__item">User Interface</li>
+	</ul>
+	</div>
+	</div>
+	</div>
+	</section>
+
+	<section class="section featured-projects" data-sr>
+	<div class="section__title">Featured Projects</div>
+	<div class="section__content">
+	
+	<div class="project GTAV">
+	<figure class="project__pic">
+	<a href="https://www.rockstargames.com/V/" target="_blank">
+	<img src="images/Banner_GTAV.jpg" alt="GTA V Logo">
+	</a>
+	</figure>
+	<figcaption class="project__caption">
+	<div class="project__name">
+	<a href="https://www.rockstargames.com/V/" target="_blank">Grand Theft Auto V: Online</a>
+	</div>
+	<p>I worked as an Online Tools Designer at Rockstar North. Within this role I worked on both GTA V Online and GTA
+	V Online: The Doomsday Heist. I scripted events and designed content within the game and extended the development
+	tools used within the teams.</p>
+	</figcaption>
+	</div>
+	
+	<div class="project InstLife">
+	<figure class="project__pic">
+	<a href="https://play.google.com/store/apps/details?id=com.instcoffee.instlife" target="_blank">
+	<img src="images/Banner_InstLife.png" alt="InstLife Banner">
+	</a>
+	</figure>
+	<figcaption class="project__caption">
+	<div class="project__name">
+	<a href="https://play.google.com/store/apps/details?id=com.instcoffee.instlife" target="_blank">InstLife</a>
+	</div>
+	<p>I was brought in as a contractor for InstLife to develop a save/load serialization system. I had to make a number of data abstractions to make serialization of core information possible, as well as link it up with various gameplay and user interface scripts.</p>
+	</figcaption>
+	</div>
+	
+	
+	</div>
+	</section>
+
+
+	<footer class="footer">
+	<div class="footer__copyright">
+	<div class="top">
+	<span>Developed by Joeb Rogers | 2018</span>
+	</div>
+	<div class="bottom">
+	<span>Inspired by Brittany Chiang</span>
+	</div>
+	</div>
+	<div class="footer__links">
+	<a href="mailto:info@joebrogers.com" target="_blank" title="email">
+	<span class="text">email</span>
+	<i class="fas fa-envelope"></i>
+	<img src="images/itchio.svg" alt="twitter"> </a>
+	<a href="https://twitter.com/joebmakesgames" target="_blank" title="twitter">
+	<span class="text">twitter</span>
+	<i class="fab fa-twitter"></i>
+	<img src="images/itchio.svg" alt="twitter"> </a>
+	<a href="https://github.com/JoebRogers" target="_blank" title="github">
+	<span class="text">github</span>
+	<i class="fab fa-github"></i>
+	<img src="images/itchio.svg" alt="twitter"> </a>
+	<a href="https://joebrogers.itch.io/" target="_blank" title="itch.io">
+	<span class="text">itch.io</span>
+	<img class="dont-hide" src="images/itchio.svg" alt="twitter"> </a>
+	</a>
+	<a href="https://www.linkedin.com/in/joebrogers" target="_blank" title="linkedin">
+	<span class="text">linkedin</span>
+	<i class="fab fa-linkedin"></i>
+	<img src="images/itchio.svg" alt="twitter"> </a>
+	</div>
+	</footer>
+
+	<button id="top-button" style="display: inline-block;">
+	<img src="" alt=""> </button>
 </div>
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
-</html>
