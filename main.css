@@ -184,7 +184,7 @@ html .section {
 @media screen and (max-width:1280px) {
     body .section,
     html .section {
-        padding: 100px
+        padding: 50px
     }
 }
 
@@ -1087,10 +1087,12 @@ html #top-button img {
 }
 
 .featured-projects .project__caption {
-    width: 125px;
+    width: 550px;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    margin-left: 30px
+    margin-left: 30px;
+	margin-top: 10px;
+	
 }
 
 @media screen and (max-width:768px) {
@@ -1110,13 +1112,23 @@ html #top-button img {
 }
 
 .featured-projects .project p {
-    font-size: .85rem;
-    line-height: 1.3
+    font-size: .95rem;
+    line-height: 1.4
 }
 
 .night .featured-projects .project p {
     font-size: 1.6rem;
-    line-height: 1.3
+    line-height: 1.4
+}
+
+.featured-projects .project li {
+    font-size: .95rem;
+    line-height: 1.4
+}
+
+.night .featured-projects .project p {
+    font-size: 1.6rem;
+    line-height: 1.4
 }
 
 .other-projects .project {
@@ -1390,4 +1402,14 @@ html #top-button img {
     opacity: 1;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px)
+}
+
+.zoomImg{
+	width:50%;
+	height: auto;
+	transition: transform .2s;
+} 
+
+.zoomImg:hover {
+  transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
