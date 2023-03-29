@@ -1172,6 +1172,16 @@ html #top-button img {
   transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.zoomImgVert{
+	width:45%;
+	height: auto;
+	transition: transform .2s;
+} 
+
+.zoomImgVert:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .footer {
     padding: 50px 80px;
     display: -webkit-box;
